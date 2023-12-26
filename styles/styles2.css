@@ -1,0 +1,73 @@
+body{
+    background-image: url(../Images2/e69c4451-d3c2-4ad7-97b6-c78234da920b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+    text-align: center;
+   }
+
+   #Dialogue1{
+    display: flex;
+    text-align: left;
+   }
+
+   #intro{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50%;
+   }
+
+   .frog1{
+    width: 250px;
+    margin: 3% 0 0 3%;
+   } 
+
+   .imgs1{
+    width: 200px;
+    padding: 1%;
+   }
+
+   .containerAll{
+    display: flex;
+    color: rgb(93, 7, 93);
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    font-size: 15.5px;
+    justify-content: space-around;
+   }
+
+   #container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 2%;
+    padding: 1%;
+    margin: 1%;
+   }
+
+   #container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 2%;
+    padding: 1%;
+    margin: 1%;
+   }
+
+   #container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 2%;
+    padding: 1%;
+    margin: 1%;
+   }
