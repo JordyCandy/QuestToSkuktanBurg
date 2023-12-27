@@ -11,6 +11,8 @@ D2.style.display = "none";
 var D3 = document.getElementById("Dialogue3");
 D3.style.display = "none";
 
+var Mydia = document.getElementById("D3");
+
 function yes() {
   document.getElementById("intro").textContent = "Very well traveller, we shall do a reading! Before we start, what is your name?";
   saves.push("Yes");
@@ -55,6 +57,7 @@ function name(){
   saves.push(fullName);
   document.getElementById("D1").textContent = "My name is " + saves[1] + ", noble wizard.";
   D3Timer();
+  document.getElementById("D2").textContent = "Very well," + fullName + ". Onward to the CAVE OF WONDERS! Oops, my magic might take a minute to activate";
   PageTimer();
 }
 

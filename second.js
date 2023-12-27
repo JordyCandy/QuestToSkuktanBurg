@@ -195,5 +195,14 @@ function continues(event){
         window.location.href = "./third.html";
     }
 }
+function hideDialogue1(){
+    document.getElementById("Dialogue1").style.display = "none";
+}
 
 document.addEventListener("keypress", continues);
+
+function timerForDialogue1(){
+    setTimeout(hideDialogue1, 5000);
+}
+
+document.addEventListener("mouseover", timerForDialogue1);
