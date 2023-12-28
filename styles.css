@@ -67,5 +67,25 @@ body{
    .unknown{
     background-color: black;
    }
+.spanClass{
+   animation: pulse 2s infinite;
+   font-size: 15px;
+}
 
+@keyframes pulse{
+    0%{
+        transform: scale(0.95);
+        text-shadow: 3px 3px 5px black;
+    }
+
+    50%{
+        transform: scale(1);
+        text-shadow: 3px 3px 30px black;
+    }
+
+    100%{
+        transform: scale(0.95);
+        text-shadow: 3px 3px 5px black;
+    }
+}
    /*ykbby.otm

@@ -188,6 +188,7 @@ function cardPicker(){
     cButton.style.display = "";
 }
 
+
 pickers.addEventListener("click", cardPicker);
 
 function continues(event){

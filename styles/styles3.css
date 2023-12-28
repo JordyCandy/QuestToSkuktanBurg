@@ -1,0 +1,102 @@
+body{
+    background-image: url(../images3/043f1c48-80ee-46f9-b6f2-c3da9feb76a3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+}
+
+#griddy{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 13px;
+}
+
+#secondLine{
+    grid-area: 2/3/3/4;
+}
+
+#Dialogue1{
+    display: flex;
+}
+
+.frog1, .char1{
+    width: 250px;
+    margin: 3% 0 0 3%;
+} 
+
+#D1{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50%;
+}
+
+#D2{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50%;
+}
+
+#D3{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50%;
+}
+
+#D4{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50%;
+}
+
+#c1{
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+#c2{
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+#c3{
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+#c4{
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+#Dialogue2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Dialogue3{
+    display: flex;
+}
+
+#Dialogue4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(0.95);
+        text-shadow: 3px 3px 5px black;
+    }
+
+    50%{
+        transform: scale(1);
+        text-shadow: 3px 3px 30px black;
+    }
+
+    100%{
+        transform: scale(0.95);
+        text-shadow: 3px 3px 5px black;
+    }
+}
