@@ -1,0 +1,53 @@
+body{
+    background-image: url(./Images2/e69c4451-d3c2-4ad7-97b6-c78234da920b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+    text-align: center;
+}
+
+.frog1{
+    width: 250px;
+    margin: 3% 0 0 3%;
+}
+
+#Dialogue1{
+    display: flex;
+}
+
+#D1{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50%;
+}
+
+#C1{
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+#C2{
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(0.95);
+        text-shadow: 3px 3px 5px black;
+    }
+
+    50%{
+        transform: scale(1);
+        text-shadow: 3px 3px 30px black;
+    }
+
+    100%{
+        transform: scale(0.95);
+        text-shadow: 3px 3px 5px black;
+    }
+}
